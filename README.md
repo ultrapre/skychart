@@ -15,3 +15,13 @@ This software is part of a full suite for astronomical observation:
 
 Requirement:
 - https://github.com/pchev/libpasastro
+
+# How to build for Win64 ?
+
+1. Download and install https://sourceforge.net/projects/lazarus/files/Lazarus%20Windows%2064%20bits/Lazarus%202.0.10/lazarus-2.0.10-fpc-3.2.0-win64.exe/download
+
+2. Download and install https://sourceforge.net/projects/gnuwin32/
+
+3. Open Lazarus GUI, open "skychart\skychart\cdc.lpr" compile and get .exe.
+
+4. copy \*.dll and data into same folder to run.
